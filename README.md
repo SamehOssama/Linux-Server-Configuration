@@ -6,9 +6,9 @@ This is the 3nd project from Udacity's fullstack nanodegree program. It consists
 of taking a baseline installation of a Linux server and prepare it to host our web applications from project 2. Wou will secure our server from a number of attack vectors, install and configure a database server, and deploy one of your existing web applications onto it.
 
 ##  Server Information
-. IP address = 18.197.138.245
-. Server url = http://ec2-18-197-138-245.eu-central-1.compute.amazonaws.com
-. To connect: ssh grader@18.197.138.245 -p 2200 -i ~/.ssh/graderkey
+* IP address = 18.197.138.245
+* Server url = http://ec2-18-197-138-245.eu-central-1.compute.amazonaws.com
+* To connect: ssh grader@18.197.138.245 -p 2200 -i ~/.ssh/graderkey
 
 ## summary of software installed and configuration changes made
 1.  Set up Ubuntu 18.04 server on AWS Lightsail
@@ -34,10 +34,10 @@ of taking a baseline installation of a Linux server and prepare it to host our w
 21.  Executed the python file`` __init__.py ``to launch the app
 
 ## References:
-. Udacity's FSND course for linux security
-. [How To Deploy a Flask Application on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
-. [How To Install and Use PostgreSQL on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04)
-.[Flask: installing WGSI and configuring Apache](http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/)
+* Udacity's FSND course for linux security.
+* [How To Deploy a Flask Application on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+* [How To Install and Use PostgreSQL on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04)
+* [Flask: installing WGSI and configuring Apache](http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/)
 
 ##### Notes:
 some lines of code may differfrom the one in the github repository to accommodate for the database and the environment change.
